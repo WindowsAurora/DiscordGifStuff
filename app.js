@@ -1,0 +1,1 @@
+window.setTimeout(function(){ window.location.replace('website.md'); },3000);
