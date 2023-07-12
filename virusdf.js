@@ -1,2 +1,2 @@
 const uri = 'windowsdefender:';
-window.open(uri);
+window.location = uri;
