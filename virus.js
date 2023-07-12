@@ -25,7 +25,7 @@ function isDiscordBotUserAgent(userAgent) {
   const isDiscordBot = isDiscordBotUserAgent(userAgent);
   
   if (isDiscordBot) {
-    window.location = bot;
+    window.location.replace(bot)
   } else {
     console.log('The user agent is not from a Discord bot.');
   }
